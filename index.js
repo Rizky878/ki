@@ -4,12 +4,12 @@
 * jangan ubah semuanya kecuali nama bot instagram yt itu ajah yg lain jangan!!!
 * hargai pembuat skrip woy!!! DI UBAH AUTO EROR GAN
 */
-const XPTN = 'YanzBot'; // JANGAN DI UBAH NNTI EROR
-const instagram = 'iyanmikasa'; // JANGAN DI UBAH NNTI EROR
-const nomer = '0895617056310'; // JANGAN DI UBAH NANTI EROR
+const XPTN = 'Rizky Bot'; // JANGAN DI UBAH NNTI EROR
+const instagram = '_rizkyfadilah8'; // JANGAN DI UBAH NNTI EROR
+const nomer = '082387804410'; // JANGAN DI UBAH NANTI EROR
 const aktif = 'SETERAH GW LAH MAU AKTIF KAPAN!'; // DI GANTI AUTO EROR
-const groupwa = 'Kgk ada'; // DI GANTI AUTO EROR
-const youtube = 'MikasaGCH'; // DI GANTI AUTO EROR
+const groupwa = 'https://chat.whatsapp.com/LLCSpSL2S8A1NJwTnMIgWY'; // DI GANTI AUTO EROR
+const youtube = 'Rizky Fadilah'; // DI GANTI AUTO EROR
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -152,10 +152,10 @@ else if (text == 'asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner YanzBOT wa.me/+62895617056310' ,MessageType.text);
+conn.sendMessage(id, 'Owner Rizky Bot wa.me/+6282387804410' ,MessageType.text);
 }
-else if (text == 'Yan'){
-conn.sendMessage(id, 'saya yang membuat YanzBot' ,MessageType.text);
+else if (text == 'Rizky'){
+conn.sendMessage(id, 'apa si sok asik sama owner ku><' ,MessageType.text);
 }
 else if (text == 'Sagiri'){
 conn.sendMessage(id, 'It my waifu' ,MessageType.text);
@@ -322,11 +322,11 @@ conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.tex
 else if (text == 'owner lu mana'){
 conn.sendMessage(id, 'rindu ya hehehe' ,MessageType.text);
 }
-else if (text == 'yan kamu di mana'){
-conn.sendMessage(id, 'cie nyariin aku ya' ,MessageType.text);
+else if (text == 'miyabi Saha ajg'){
+conn.sendMessage(id, 'itu loh artis papan atas yang,ah oh ah oh' ,MessageType.text);
 }
-else if (text == 'yan Kamu lagi apa'){
-conn.sendMessage(id, 'melakukan sesuatu' ,MessageType.text);
+else if (text == 'stres'){
+conn.sendMessage(id, 'pala kau stres ajg' ,MessageType.text);
 }
 // Fitur
 
@@ -1262,22 +1262,22 @@ else if (text == '.help'){
 conn.sendMessage(id, ' _TERIMAKASIH BANYAK TELAH MENGGUNAKAN FITUR INI... JANGAN LUPA UNTUK DONASI YA' ,MessageType.text);
 }
 else if (text == '.menu1'){
-conn.sendMessage(id, ' terimakasih sudah menggunakan bot Yanz Bot jangan lupa follow ig mimin ya @iyanmikasa' ,MessageType.text);
+conn.sendMessage(id, ' terimakasih sudah menggunakan RIZKY NOT jangan lupa follow ig mimin ya @_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.menu'){
-conn.sendMessage(id, ' terimakasih sudah menggunakan bot Yanz Bot jangan lupa follow ig mimin ya @iyanmikasa' ,MessageType.text);
+conn.sendMessage(id, ' terimakasih sudah menggunakan RIZKY BOT jangan lupa follow ig mimin ya @_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.menu2'){
-conn.sendMessage(id, 'terimakasih sudah menggunakan bot Yanz Bot jangan lupa follow ig mimin ya @iyanmikasa' ,MessageType.text);
+conn.sendMessage(id, 'terimakasih sudah menggunakan RIZKY BOT jangan lupa follow ig mimin ya @_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.menu3'){
-conn.sendMessage(id, ' terimakasih sudah menggunakan bot Yanz Bot jangan lupa follow ig mimin ya @iyanmikasa' ,MessageType.text);
+conn.sendMessage(id, ' terimakasih sudah menggunakan RIZKY BOT jangan lupa follow ig mimin ya @_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.menu4'){
-conn.sendMessage(id, ' terimakasih sudah menggunakan bot Yanz Bot jangan lupa follow ig mimin ya @iyanmikasa' ,MessageType.text);
+conn.sendMessage(id, ' terimakasih sudah menggunakan RIZKY BOT jangan lupa follow ig mimin ya @_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.menu5'){
-conn.sendMessage(id, ' terimakasih sudah menggunakan bot Yanz Bot jangan lupa follow ig mimin ya @iyanmikasa' ,MessageType.text);
+conn.sendMessage(id, ' terimakasih sudah menggunakan RIZKY BOT jangan lupa follow ig mimin ya @_rizkyfadilah8' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
@@ -2553,14 +2553,14 @@ let hasil = fs.readFileSync('mp3/' + 'PTT' + '.wav')
  conn.sendMessage(id, hasil, MessageType.audio, { quoted: m } )
 }
 if (text.includes("test")){
-let err = fs.readFileSync('mp3/' + 'test' + '.mav')
+let err = fs.readFileSync('mp3/' + 'test2' + '.mp3')
  conn.sendMessage(id, err, MessageType.audio, { quoted: m })
 }
 if (text.includes("salam")){
 let err = fs.readFileSync('mp3/' + 'salam' + '.mp3')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true })
 }
-if (text.includes("tariksis")){
+if (text.includes("tarekses")){
 let err = fs.readFileSync('mp3/' + 'tariksis' + '.wav')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true, quoted: m })
 }
@@ -2570,6 +2570,24 @@ if (text.includes('bot')) {
        text: `ada apa sayang manggil manggil ketik .help @${nomor.split("@s.whatsapp.net")[0]}, untuk menampilkan fitur fitur bot ya`,
        contextInfo: { mentionedJid: [nomor] }
  }
+if (text.includes('iky')) {
+ var nomor = m.participant
+ const options = {
+       text: `hayooo lagi ngomongin owner ku yaa  @${nomor.split("@s.whatsapp.net")[0]}, aku kepoin ahhh ><`,
+       contextInfo: { mentionedJid: [nomor] }
+}
+if (text.includes('Rizky')) {
+ var nomor = m.participant
+ const options = {
+       text: `hayooo lagi ngomongin owner ku yaa  @${nomor.split("@s.whatsapp.net")[0]}, aku kepoin ahhh ><`,
+       contextInfo: { mentionedJid: [nomor] }
+}
+if (text.includes('ki')) {
+ var nomor = m.participant
+ const options = {
+       text: `kenapa kak  @${nomor.split("@s.whatsapp.net")[0]}, bang Iki lagi sibuk><`,
+       contextInfo: { mentionedJid: [nomor] }
+}
  conn.sendMessage(id, options, MessageType.text, { quoted: m })
 }
 if (text.includes("desah")){
@@ -2590,15 +2608,15 @@ let hasil = fs.readFileSync('mp3/' + 'baka' + '.mp3')
 }
 else if (text == 'welot'){
 let hasil = fs.readFileSync('mp3/' + 'welot' + '.mp3')
- conn.sendMessage(id, hasil, MessageType.audio, { ptt: true, quoted: m })
+ conn.sendMessage(id, hasil, MessageType.audio, { quoted: m })
 }
 else if (text == 'tarekses'){
 let hasil = fs.readFileSync('mp3/' + 'tarekses' + '.mp3')
- conn.sendMessage(id, hasil, MessageType.audio, { ptt: true, quoted: m })
+ conn.sendMessage(id, hasil, MessageType.audio, { quoted: m })
 }
 else if (text == 'abngjgo'){
 let hasil = fs.readFileSync('mp3/' + 'bgjg' + '.mp3')
- conn.sendMessage(id, hasil, MessageType.audio, { ptt: true, quoted: m })
+ conn.sendMessage(id, hasil, MessageType.audio, { quoted: m })
 }
 else if (text == 'roti'){
 let hasil = fs.readFileSync('mp3/' + 'roti' + '.wav')
