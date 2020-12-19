@@ -2669,4 +2669,4 @@ axios.get(`https://api.terhambar.com/bpk?kata=${alay}`).then ((res) =>
 //Tolonglah bro jangan di ubah ubah 
 
 
-}
+}}
